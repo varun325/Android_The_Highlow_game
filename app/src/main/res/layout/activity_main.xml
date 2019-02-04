@@ -86,9 +86,11 @@
         android:layout_centerHorizontal="true"
         android:ems="10"
         android:hint="Guess the number  here!"
-        android:inputType="textPersonName"
+        android:digits="0123456789."
+        android:inputType="numberDecimal"
         android:singleLine="false"
         android:textColor="@color/digital_color"
         android:textColorHint="#ecf0f1"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        />
 </RelativeLayout>
